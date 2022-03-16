@@ -1,8 +1,4 @@
 # Databricks notebook source
-!pip install pytest
-
-# COMMAND ----------
-
 import pytest
 
 from spark import get_spark
