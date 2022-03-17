@@ -1,4 +1,10 @@
 # Databricks notebook source
+# パスが通らないので適当に追加
+import sys, pprint
+sys.path.append('/home/ec2-user/anaconda3/lib/python3.8/site-packages')
+
+# COMMAND ----------
+
 import unittest
 import json
 import glob

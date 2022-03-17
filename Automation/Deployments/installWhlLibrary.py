@@ -1,10 +1,7 @@
 # Databricks notebook source
 # パスが通らないので適当に追加
 import sys, pprint
-pprint.pprint(sys.path)
-
 sys.path.append('/home/ec2-user/anaconda3/lib/python3.8/site-packages')
-pprint.pprint(sys.path)
 
 # COMMAND ----------
 
