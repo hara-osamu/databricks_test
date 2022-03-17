@@ -4,6 +4,9 @@ from setuptools import setup, find_packages
 setup(
     name='addcol',
     version='1.0',
+    install_requires=[
+        "requests",
+    ],
     license='proprietary',
     description='addcol',
 
