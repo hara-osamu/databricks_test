@@ -11,7 +11,6 @@ setup(
     author_email='hara_osamu@comture.com',
     url='None.com',
 
-    packages=['addcol'],
-    install_requires=['spark'],
+    packages=find_packages(),
 )
 
