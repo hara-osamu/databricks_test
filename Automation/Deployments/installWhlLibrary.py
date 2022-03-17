@@ -1,6 +1,6 @@
 # Databricks notebook source
-import sys
-print(sys.prefix)
+import sys, pprint
+pprint.pprint(sys.path)
 
 # COMMAND ----------
 
