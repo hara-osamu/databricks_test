@@ -1,4 +1,9 @@
 # Databricks notebook source
+import sys
+print(sys.prefix)
+
+# COMMAND ----------
+
 import json
 import requests
 import sys
