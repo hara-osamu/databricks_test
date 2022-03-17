@@ -1,6 +1,7 @@
 # Databricks notebook source
 import pytest
 
+from spark import get_spark
 from addcol import with_status
 
 class TestAppendCol(object):
@@ -9,7 +10,7 @@ class TestAppendCol(object):
             ("paula", "white", "paula.white@example.com"),
             ("john", "baer", "john.baer@example.com")
         ]
-        source_df = spark.createDataFrame(
+        source_df = get_spark().createDataFrame(
             source_data,
             ["first_name", "last_name", "email"]
         )
@@ -20,7 +21,7 @@ class TestAppendCol(object):
             ("paula", "white", "paula.white@example.com", "checked"),
             ("john", "baer", "john.baer@example.com", "checked")
         ]
-        expected_df = spark.createDataFrame(
+        expected_df = get_spark().createDataFrame(
             expected_data,
             ["first_name", "last_name", "email", "status"]
         )
