@@ -12,5 +12,6 @@ setup(
     url='None.com',
 
     packages=find_packages(),
+    install_requires=['spark'],
 )
 
