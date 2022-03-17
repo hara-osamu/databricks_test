@@ -1,8 +1,4 @@
 # Databricks notebook source
-!pip install requests
-
-# COMMAND ----------
-
 import json
 import requests
 import sys
