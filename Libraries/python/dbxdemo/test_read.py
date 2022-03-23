@@ -1,4 +1,6 @@
 # Databricks notebook source
+import pytest
+
 from pyspark.sql import SparkSession
 from pyspark.dbutils import DBUtils
 
